@@ -384,6 +384,89 @@ a img {
   background-color: #ff6f3d;
 }
 
+/* Shop Html */
+
+.shop_section .heading_container {
+  margin-bottom: 20px;
+}
+
+.shop_section .box {
+  background-color: #ffffff;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 3%;
+  width: 95%;
+}
+
+.shop_section .box a {
+  color: #000000;
+  
+}
+
+.shop_section .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  height: 210px;
+}
+
+.shop_section .box .img-box img {
+  height: 70%;
+  width: 75%;
+  margin: 0;
+  margin-top: -50px;
+  border-radius: 5%;
+}
+
+.shop_section .box .detail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop_section .box .detail-box h6 span {
+  color: #db4f66;
+}
+
+.shop_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.shop_section .btn-box a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #292725;
+  color: #ffffff;
+  border: 1px solid #292725;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.shop_section .btn-box a:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+/* end Shop Html */
+
 .service_section {
   position: relative;
 }
